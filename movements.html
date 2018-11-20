@@ -21,5 +21,21 @@
 		<p>OpenCV background subtraction, OpenCV simple blob detector. <a href="movements_tracking.html">pesistant tracking</a></p>
 	</section>
 	
+	<section>
+		<h2>Project structure</h2>
+		<h3>Camera computer</h3>
+		Two camera is capturing frames at the same time from a trigger signal.
+		The video frames goes to the computer to be proccessed.
+		<h3>Video processing</h3>
+		The program receives frame from left camera and a frame from right camera the same time.
+		Background subtraction and blob detection is used to find moving objects from those frames.
+		Moving objects can be noise or birds. Another program procedure will filter out the noise by 
+		looking at the continuity of the moving objects.
+		If an object is perstistant then it will be classifed as a interesting object.
+		Another program procedure will cross match intersting objects from left frame and right frame.
+		Antoher program procedure will undistort the xy coordinate from the interseting objects and then calculates the 
+		disparity between left and right to calculate xyz relative to the cameras global position.
+	</section>
+	
 </body>
 </html>
