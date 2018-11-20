@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>MIUN Movements</title>
+</head>
+<body>
+	<header>
+		<h1>MIUN Movements</h1>
+		<aside>Object tracking using stereo vision camera</aside>
+	</header>
+
+  <section>
+    <h2>Application</h2>
+    <p>Tracking bird in 3D space for statistical analys and early warning for wind turbine collision.</a>
+  </section>
+	
+</body>
+</html>
