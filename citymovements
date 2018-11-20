@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>MIUN Movements</title>
+</head>
+<body style="max-width: 1000px; margin: auto;">
+	<header>
+		<h1>MIUN Citymovements</h1>
+		<aside>Object tracking using thermal camera</aside>
+	</header>
+
+	<section>
+		<h2>Application</h2>
+		<p>Tracking people in the streets.</a>
+	</section>
+  
+	<section>
+		<h2>Technology</h2>
+		<p>OpenCV background subtraction, OpenCV simple blob detector. <a href="movements_tracking.html">pesistant tracking</a></p>
+	</section>
+	
+	<section>
+		<h2>Counting people using thermal camera and blob filter</h2>
+		<iframe width="420" height="315"src="https://www.youtube.com/watch?v=812jF4xDwrA"></iframe> 
+	</section>
+	
+</body>
+</html>
